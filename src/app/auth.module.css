@@ -421,6 +421,35 @@
   transform: translateY(0);
 }
 
+.submitButtonRed {
+  margin-top: 8px;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #ef4444 0%, #f43f5e 50%, #ef4444 100%);
+  background-size: 200% auto;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.25);
+  transition: var(--transition-smooth);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.submitButtonRed:hover {
+  transform: translateY(-2px);
+  background-position: right center;
+  box-shadow: 0 6px 20px rgba(244, 63, 94, 0.45);
+}
+
+.submitButtonRed:active {
+  transform: translateY(0);
+}
+
 /* Divider styling */
 .divider {
   display: flex;
