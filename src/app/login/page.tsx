@@ -27,6 +27,8 @@ export default function LoginPage() {
     }, 4000);
   };
 
+
+
   const handleLoginSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -66,9 +68,8 @@ export default function LoginPage() {
         {toasts.map((toast) => (
           <div
             key={toast.id}
-            className={`${styles.toast} ${
-              toast.type === "success" ? styles.toastSuccess : styles.toastError
-            }`}
+            className={`${styles.toast} ${toast.type === "success" ? styles.toastSuccess : styles.toastError
+              }`}
           >
             <div className={styles.toastIcon}>
               {toast.type === "success" ? (
