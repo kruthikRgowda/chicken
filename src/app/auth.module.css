@@ -395,7 +395,7 @@
 .submitButton {
   margin-top: 8px;
   padding: 14px 20px;
-  background: linear-gradient(135deg, #6366f1 0%, #06b6d4 50%, #6366f1 100%);
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #6366f1 100%);
   background-size: 200% auto;
   border: none;
   border-radius: 12px;
@@ -403,7 +403,7 @@
   font-weight: 600;
   font-size: 0.95rem;
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.25);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
   transition: var(--transition-smooth);
   display: flex;
   align-items: center;
@@ -414,7 +414,7 @@
 .submitButton:hover {
   transform: translateY(-2px);
   background-position: right center;
-  box-shadow: 0 6px 20px rgba(6, 182, 212, 0.45);
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
 }
 
 .submitButton:active {
@@ -424,7 +424,7 @@
 .submitButtonGreen {
   margin-top: 8px;
   padding: 14px 20px;
-  background: linear-gradient(135deg, #10b981 0%, #059669 50%, #10b981 100%);
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #6366f1 100%);
   background-size: 200% auto;
   border: none;
   border-radius: 12px;
@@ -432,7 +432,7 @@
   font-weight: 600;
   font-size: 0.95rem;
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
   transition: var(--transition-smooth);
   display: flex;
   align-items: center;
@@ -443,7 +443,7 @@
 .submitButtonGreen:hover {
   transform: translateY(-2px);
   background-position: right center;
-  box-shadow: 0 6px 20px rgba(5, 150, 105, 0.45);
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
 }
 
 .submitButtonGreen:active {

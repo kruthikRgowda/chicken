@@ -301,7 +301,7 @@ export default function LoginPage() {
             {/* Submit button */}
             <button
               type="submit"
-              className={styles.submitButtonGreen}
+              className={styles.submitButton}
               disabled={isLoading}
             >
               {isLoading ? (
