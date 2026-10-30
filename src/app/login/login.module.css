@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .pageContainer {
-  --bg-base: #0c0d12;
+  --bg-base: #0000ff;
   --card-bg: rgba(18, 20, 29, 0.75);
   --card-border: rgba(255, 255, 255, 0.08);
   --card-border-hover: rgba(99, 102, 241, 0.35);
@@ -51,7 +51,7 @@
   inset: 0;
   background-image: 
     radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(12, 13, 18, 0.2), rgba(12, 13, 18, 0.95));
+    linear-gradient(to bottom, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.95));
   background-size: 32px 32px, 100% 100%;
   pointer-events: none;
   z-index: 1;
@@ -425,8 +425,7 @@
   padding: 14px 20px;
   border: none;
   border-radius: var(--radius-md);
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
-  background-size: 200% auto;
+  background: #dc2626;
   color: #ffffff;
   font-size: 0.95rem;
   font-weight: 600;
@@ -436,15 +435,15 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  box-shadow: 0 8px 24px -4px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 8px 24px -4px rgba(220, 38, 38, 0.5);
   transition: var(--transition);
   overflow: hidden;
 }
 
 .submitButton:hover:not(:disabled) {
   transform: translateY(-2px);
-  background-position: right center;
-  box-shadow: 0 12px 28px -2px rgba(168, 85, 247, 0.6);
+  background: #b91c1c;
+  box-shadow: 0 12px 28px -2px rgba(220, 38, 38, 0.6);
 }
 
 .submitButton:active:not(:disabled) {
