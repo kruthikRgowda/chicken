@@ -140,6 +140,7 @@ export default function LoginPage() {
           <p className={styles.subtitle}>
             Enter your credentials to access your Antigravity workspace
           </p>
+          <p className={styles.subtitle}>please login with company email</p>
         </div>
 
         {/* Social SSO Buttons */}
